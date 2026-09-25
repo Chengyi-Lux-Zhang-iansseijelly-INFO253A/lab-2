@@ -100,18 +100,18 @@ body {
 
   /* GUIDE 4: style nav as vertical panel */
   /* 4-1) How the link inside of nav should be displayed? */ 
+  .nav a {
+    display: block;
+    width: 100%;
+  }
+
+  /* 4-2) Where the nav should be positioned? */
   .nav {
     position: absolute;
     top: 100%;
     left: 0;
     right: 0;
     background: #ffffff;
-  }
-
-  /* 4-2) Where the nav should be positioned? */
-  .nav a {
-    display: block;
-    width: 100%;
   }
 
 }
